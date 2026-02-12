@@ -26,7 +26,7 @@ namespace MemoApp
             cmd.ExecuteNonQuery();
 
             conn.Close();
-            MessageBox.Show("Kaydedildi");
+            MessageBox.Show("Save");
         }
 
         // SHOW
@@ -64,7 +64,7 @@ namespace MemoApp
             cmd.ExecuteNonQuery();
 
             conn.Close();
-            MessageBox.Show("Silindi");
+            MessageBox.Show("Delete");
         }
     }
 }
